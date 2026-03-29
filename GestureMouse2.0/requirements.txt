@@ -1,0 +1,17 @@
+# GestureMouse 2.0 — dependencies
+# Install with:  pip install -r requirements.txt
+
+# Hand tracking  (0.10+ uses Tasks API, 0.9.x uses legacy solutions — both work)
+mediapipe
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Mouse control
+pyautogui>=0.9.54
+
+# Screen resolution detection
+screeninfo>=0.8.1
+
+# Numerics
+numpy>=1.24.0
